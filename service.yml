@@ -10,4 +10,3 @@ spec:
     targetPort: 3000
     nodePort: 31000
   
-
