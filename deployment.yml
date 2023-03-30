@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp-node
-        image: anuragjoshi01/node-js-demo:v1
+        image: anuragjoshi01/node-js-demo:24
         ports:
         - containerPort: 3000
