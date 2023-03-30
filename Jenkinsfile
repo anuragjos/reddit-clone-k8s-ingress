@@ -1,6 +1,6 @@
 pipeline{
     agent any 
-    enviroument{
+    enviroment{
         DOCKERHUB_USERNAME ="anuragjoshi01"
         APP_NAME = "node-js-demo"
         IMAGE_TAG ="${BUILD_NUMBER}"
