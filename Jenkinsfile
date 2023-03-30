@@ -12,8 +12,8 @@ pipeline{
         stage("Checkout from SCM"){
             steps{
                 script{
-                        git credentailsiD: 'github'
-                        url: 'https://github.com/anuragjos/reddit-clone-k8s-ingress.git'
+                        git credentailsiD: 'github',
+                        url: 'https://github.com/anuragjos/reddit-clone-k8s-ingress.git',
                         branch: 'master'
                 }
             }
