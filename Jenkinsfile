@@ -62,7 +62,7 @@ pipeline{
                     git config --global user.name "Anil Joshi"
                     git config --global user.email "joshianurag088@gmail.com"
                     git add deployment.yml
-                    git commit -m "updating deployment file
+                    git commit -m "updating deployment file"
                     """
                     withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
                         sh "git push https://github.com/anuragjos/reddit-clone-k8s-ingress.git master"
