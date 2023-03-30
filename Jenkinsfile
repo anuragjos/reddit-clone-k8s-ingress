@@ -55,7 +55,7 @@ pipeline{
                 }
             }
         }
-        stage("Push to chnage Deployment file to Git"){
+        stage("Push to change Deployment file to Git"){
             steps{
                 script{
                     sh """
