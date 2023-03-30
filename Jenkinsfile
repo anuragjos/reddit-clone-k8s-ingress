@@ -4,7 +4,7 @@ pipeline{
         DOCKERHUB_USERNAME ="anuragjoshi01"
         APP_NAME = "node-js-demo"
         IMAGE_TAG ="${BUILD_NUMBER}"
-        IMAGE_NAME = "${DOCKERHUB_USERNAME}" + "/" + "{APP_NAME}"
+        IMAGE_NAME = "${DOCKERHUB_USERNAME}" + "/" + "${APP_NAME}"
         REGISTRY_CREDS = "dockerhub"
 
     }
