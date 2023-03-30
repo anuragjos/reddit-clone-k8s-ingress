@@ -64,7 +64,7 @@ pipeline{
                     git add deployment.yml
                     git commit -m "updating deployment file"
                     """
-                    withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
+                   withCredentials([gitUsernamePassword(credentialsId: 'github', gitToolName: 'Default')]) {
                         sh "git push https://github.com/anuragjos/reddit-clone-k8s-ingress.git master"
                     }
                 }
